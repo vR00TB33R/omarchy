@@ -1,0 +1,43 @@
+{
+    "python.analysis.autoFormatStrings": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "files.autoSave": "afterDelay",
+    "diffEditor.maxComputationTime": 0,
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "chat.mcp.gallery.enabled": true,
+    "chat.remoteAgentHosts": [],
+    "git.autofetch": true,
+    "terminal.integrated.initialHint": false,
+    "yaml.disableSchemaDetection": [
+        "**/.github/workflows/*.yml",
+        "**/.github/workflows/*.yaml",
+        "**/.gitea/workflows/*.yml",
+        "**/.gitea/workflows/*.yaml",
+        "**/.forgejo/workflows/*.yml",
+        "**/.forgejo/workflows/*.yaml"
+    ],
+    "chat.artifacts.rules.byMemoryFilePath": {
+
+        "**/*plan*.md": {
+            "groupName": "Plans"
+        }
+    },
+    "chat.viewSessions.orientation": "stacked",
+    "chat.agent.sandbox.enabled": "off",
+    "chat.tools.urls.autoApprove": {
+        "https://code.visualstudio.com": true,
+        "https://github.com/microsoft/vscode/wiki/*": true,
+        "https://raw.githubusercontent.com": {
+            "approveRequest": false,
+            "approveResponse": true
+        }
+    },
+}
